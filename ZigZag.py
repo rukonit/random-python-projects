@@ -1,5 +1,9 @@
+
+# = fields/variables = #
 s = "PAYPALISHIRING"
 numRows = 4
+
+# = methods = #
 def convert(s, numRows):
     if numRows == 1 or len(set(s)) == 1 or len(s) <= numRows:
         return s
